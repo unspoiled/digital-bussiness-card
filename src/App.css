@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: #23252C;
+  color: white;
+  width: 320px;
+  margin: auto;
+}
+
+#root{
+  background-color: #1A1B21;
+  border-radius: 5px;
+}
+
+.Main--Info{
+  text-align: center;
+}
+
+.Main--Info > a{
+  text-decoration: none;
+  color: black;
+}
+
+.Main--Info > a >div{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  width: 247px;
+  margin: auto;
+  padding-top:6px;
+  padding-bottom:7px;
+  display: flexbox;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Main--Info >h4{
+  margin-top: 2px;
+  color: #F3BF99;
+}
+.Main--Info >h1{
+  margin-bottom: 2px;
+}
+
+
+.Main--Info > a >div >svg{
+ height:16px;
+ width: 16px;
+ margin-right: 10px;
+}
+
+.Main--About{
+  width: 247px;
+  margin: auto;
+}
+
+.Main--About >h3{
+  margin-bottom: 9px;
+}
+
+.Main--About > p{
+  margin-top:9px;
+  font-size: 10pt;
+}
+
+.Main--Interests{
+  width: 247px;
+  margin: auto;
+  margin-bottom: 31px;
+}
+
+.Main--Interests >h3{
+  margin-bottom: 9px;
+}
+
+.Main--Interests > p{
+  margin-top:9px;
+  font-size: 10pt;
+}
+
+.footerContainer{
+  background-color: #161619;
+  border-radius: 0px 0px 5px 5px;
+}
+.footer{
+  width: 226px;
+  margin: auto;
+  height: 64px;
+  
+}
+
+.footer > svg{
+  margin-top: 17px;
+  margin-right:9.5px;
+  margin-left: 9.5px;
+}
